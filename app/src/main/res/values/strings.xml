@@ -1,0 +1,28 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="app_name">intermediateSubmition</string>
+    <string name="register">Register</string>
+    <string name="login">Log In</string>
+    <string name="description">Description</string>
+    <string name="gallery">Gallery</string>
+    <string name="camera">Camera</string>
+
+    <string name="logout">Log Out</string>
+
+    <!--    Name-->
+    <string name="name_hint">Input Your Name</string>
+    <string name="name_error">Name Required</string>
+
+    <!--    Email-->
+    <string name="email_hint">Input Your Email</string>
+    <string name="email_error">Email Required</string>
+
+    <!--    Password-->
+    <string name="password_hint">Input Your Password</string>
+    <string name="password_error">Password must be at least 8 characters</string>
+
+    <!--    Description-->
+    <string name="description_hint">Input Your Description</string>
+    <string name="description_error">Description Required</string>
+
+    <string name="date_format">Uploaded on %1$s</string>
+</resources>
