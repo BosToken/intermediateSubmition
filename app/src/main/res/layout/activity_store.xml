@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".ui.store.StoreActivity">
+    tools:context=".ui.pages.store.StoreActivity">
 
     <ImageView
         android:id="@+id/imageView4"
@@ -28,7 +28,7 @@
         app:layout_constraintTop_toBottomOf="@+id/linearLayout"
         tools:ignore="MissingConstraints" />
 
-    <com.example.intermediatesubmition.di.component.EditText.MyEditTextDescription
+    <com.example.intermediatesubmition.ui.component.EditText.MyEditTextDescription
         android:id="@+id/editTextTextMultiLine"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"

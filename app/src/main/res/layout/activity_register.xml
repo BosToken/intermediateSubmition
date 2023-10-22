@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".ui.register.RegisterActivity">
+    tools:context=".ui.pages.register.RegisterActivity">
 
 
     <ImageView
@@ -30,7 +30,7 @@
         app:layout_constraintTop_toBottomOf="@+id/imageView3"
         tools:ignore="MissingConstraints" />
 
-    <com.example.intermediatesubmition.di.component.InputLayout.MyTextInputLayout
+    <com.example.intermediatesubmition.ui.component.InputLayout.MyTextInputLayout
         android:id="@+id/myTextInputLayout"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -42,7 +42,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView6">
 
-        <com.example.intermediatesubmition.di.component.EditText.MyEditTextName
+        <com.example.intermediatesubmition.ui.component.EditText.MyEditTextName
             android:id="@+id/editTextTextName"
             style="@style/Widget.Material3.TextInputEditText.OutlinedBox"
             android:layout_width="match_parent"
@@ -50,7 +50,7 @@
             android:layout_marginTop="8dp"
             android:ems="10"
             android:inputType="text" />
-    </com.example.intermediatesubmition.di.component.InputLayout.MyTextInputLayout>
+    </com.example.intermediatesubmition.ui.component.InputLayout.MyTextInputLayout>
 
     <TextView
         android:id="@+id/textView7"
@@ -64,7 +64,7 @@
         app:layout_constraintTop_toBottomOf="@+id/myTextInputLayout"
         tools:ignore="MissingConstraints" />
 
-    <com.example.intermediatesubmition.di.component.InputLayout.MyTextInputLayout
+    <com.example.intermediatesubmition.ui.component.InputLayout.MyTextInputLayout
         android:id="@+id/myTextInputLayout1"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -76,7 +76,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView7">
 
-        <com.example.intermediatesubmition.di.component.EditText.MyEditTextEmail
+        <com.example.intermediatesubmition.ui.component.EditText.MyEditTextEmail
             android:id="@+id/editTextTextEmailAddress"
             style="@style/Widget.Material3.TextInputEditText.OutlinedBox"
             android:layout_width="match_parent"
@@ -84,7 +84,7 @@
             android:layout_marginTop="8dp"
             android:ems="10"
             android:inputType="textEmailAddress" />
-    </com.example.intermediatesubmition.di.component.InputLayout.MyTextInputLayout>
+    </com.example.intermediatesubmition.ui.component.InputLayout.MyTextInputLayout>
 
     <TextView
         android:id="@+id/textView8"
@@ -98,7 +98,7 @@
         app:layout_constraintTop_toBottomOf="@+id/myTextInputLayout1"
         tools:ignore="MissingConstraints" />
 
-    <com.example.intermediatesubmition.di.component.InputLayout.MyPasswordInputLayout
+    <com.example.intermediatesubmition.ui.component.InputLayout.MyPasswordInputLayout
         android:id="@+id/myTextInputLayout2"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -110,7 +110,7 @@
         app:layout_constraintTop_toBottomOf="@+id/textView8"
         app:startIconDrawable="@drawable/baseline_lock_24">
 
-        <com.example.intermediatesubmition.di.component.EditText.MyEditTextPassword
+        <com.example.intermediatesubmition.ui.component.EditText.MyEditTextPassword
             android:id="@+id/editTextTextPassword"
             style="@style/Widget.Material3.TextInputEditText.OutlinedBox"
             android:layout_width="match_parent"
@@ -122,9 +122,9 @@
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/textView8" />
 
-    </com.example.intermediatesubmition.di.component.InputLayout.MyPasswordInputLayout>
+    </com.example.intermediatesubmition.ui.component.InputLayout.MyPasswordInputLayout>
 
-    <com.example.intermediatesubmition.di.component.Button.MyRegisterButton
+    <com.example.intermediatesubmition.ui.component.Button.MyRegisterButton
         android:id="@+id/button"
         android:layout_width="0dp"
         android:layout_height="wrap_content"

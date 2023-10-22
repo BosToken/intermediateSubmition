@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".ui.login.LoginActivity">
+    tools:context=".ui.pages.login.LoginActivity">
 
     <ImageView
         android:id="@+id/imageView2"
@@ -47,7 +47,7 @@
         app:layout_constraintStart_toStartOf="@+id/textView5"
         app:layout_constraintTop_toBottomOf="@+id/textView5" />
 
-    <com.example.intermediatesubmition.di.component.InputLayout.MyTextInputLayout
+    <com.example.intermediatesubmition.ui.component.InputLayout.MyTextInputLayout
         android:id="@+id/myTextInputLayout"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -61,7 +61,7 @@
         android:alpha="0"
         tools:alpha="100">
 
-        <com.example.intermediatesubmition.di.component.EditText.MyEditTextEmail
+        <com.example.intermediatesubmition.ui.component.EditText.MyEditTextEmail
             android:id="@+id/editTextTextEmailAddress"
             style="@style/Widget.Material3.TextInputEditText.OutlinedBox"
             android:layout_width="match_parent"
@@ -72,7 +72,7 @@
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/textView6" />
-    </com.example.intermediatesubmition.di.component.InputLayout.MyTextInputLayout>
+    </com.example.intermediatesubmition.ui.component.InputLayout.MyTextInputLayout>
 
     <TextView
         android:id="@+id/textView7"
@@ -85,7 +85,7 @@
         app:layout_constraintStart_toStartOf="@+id/textView6"
         app:layout_constraintTop_toBottomOf="@+id/myTextInputLayout" />
 
-    <com.example.intermediatesubmition.di.component.InputLayout.MyPasswordInputLayout
+    <com.example.intermediatesubmition.ui.component.InputLayout.MyPasswordInputLayout
         android:id="@+id/myTextInputLayout1"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -99,7 +99,7 @@
         android:alpha="0"
         tools:alpha="100">
 
-        <com.example.intermediatesubmition.di.component.EditText.MyEditTextPassword
+        <com.example.intermediatesubmition.ui.component.EditText.MyEditTextPassword
             android:id="@+id/editTextTextPassword"
             style="@style/Widget.Material3.TextInputEditText.OutlinedBox"
             android:layout_width="match_parent"
@@ -111,9 +111,9 @@
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/textView7" />
 
-    </com.example.intermediatesubmition.di.component.InputLayout.MyPasswordInputLayout>
+    </com.example.intermediatesubmition.ui.component.InputLayout.MyPasswordInputLayout>
 
-    <com.example.intermediatesubmition.di.component.Button.MyLoginButton
+    <com.example.intermediatesubmition.ui.component.Button.MyLoginButton
         android:id="@+id/button"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
