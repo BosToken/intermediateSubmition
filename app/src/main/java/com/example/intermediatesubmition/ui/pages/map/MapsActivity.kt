@@ -8,8 +8,8 @@ import com.example.intermediatesubmition.R
 import com.example.intermediatesubmition.data.remote.response.ListStoryItem
 import com.example.intermediatesubmition.data.remote.response.StoryResponse
 import com.example.intermediatesubmition.data.remote.retrofit.ApiConfig
-import com.example.intermediatesubmition.data.database.UserPreferences
-import com.example.intermediatesubmition.data.database.dataStore
+import com.example.intermediatesubmition.data.local.prefrence.UserPreferences
+import com.example.intermediatesubmition.data.local.prefrence.dataStore
 import com.example.intermediatesubmition.ui.viewmodel.UserViewModel
 
 import com.google.android.gms.maps.CameraUpdateFactory
@@ -19,7 +19,7 @@ import com.google.android.gms.maps.SupportMapFragment
 import com.google.android.gms.maps.model.LatLng
 import com.google.android.gms.maps.model.MarkerOptions
 import com.example.intermediatesubmition.databinding.ActivityMapsBinding
-import com.example.intermediatesubmition.helper.UserModelFactory
+import com.example.intermediatesubmition.ui.factory.UserModelFactory
 import com.example.intermediatesubmition.ui.pages.login.LoginActivity
 import com.google.android.gms.maps.model.BitmapDescriptorFactory
 import retrofit2.Call

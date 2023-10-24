@@ -19,12 +19,12 @@ import androidx.core.net.toUri
 import androidx.lifecycle.ViewModelProvider
 import com.example.intermediatesubmition.data.remote.response.Response
 import com.example.intermediatesubmition.data.remote.retrofit.ApiConfig
-import com.example.intermediatesubmition.data.database.UserPreferences
-import com.example.intermediatesubmition.data.database.dataStore
+import com.example.intermediatesubmition.data.local.prefrence.UserPreferences
+import com.example.intermediatesubmition.data.local.prefrence.dataStore
 import com.example.intermediatesubmition.ui.viewmodel.UserViewModel
 import com.example.intermediatesubmition.databinding.ActivityStoreBinding
 import com.example.intermediatesubmition.ui.component.EditText.MyEditTextDescription
-import com.example.intermediatesubmition.helper.UserModelFactory
+import com.example.intermediatesubmition.ui.factory.UserModelFactory
 import com.example.intermediatesubmition.ui.pages.camera.CameraActivity
 import com.example.intermediatesubmition.ui.pages.camera.CameraActivity.Companion.CAMERAX_RESULT
 import com.example.intermediatesubmition.ui.pages.login.LoginActivity

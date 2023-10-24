@@ -1,4 +1,4 @@
-package com.example.intermediatesubmition.data.database
+package com.example.intermediatesubmition.data.local.prefrence
 
 import android.content.Context
 import androidx.datastore.core.DataStore

@@ -13,8 +13,8 @@ import androidx.appcompat.app.AppCompatActivity
 import androidx.lifecycle.ViewModelProvider
 import com.example.intermediatesubmition.data.remote.response.LoginResponse
 import com.example.intermediatesubmition.data.remote.retrofit.ApiConfig
-import com.example.intermediatesubmition.data.database.UserPreferences
-import com.example.intermediatesubmition.data.database.dataStore
+import com.example.intermediatesubmition.data.local.prefrence.UserPreferences
+import com.example.intermediatesubmition.data.local.prefrence.dataStore
 import com.example.intermediatesubmition.ui.viewmodel.UserViewModel
 import com.example.intermediatesubmition.databinding.ActivityLoginBinding
 import com.example.intermediatesubmition.ui.component.Button.MyLoginButton
@@ -22,7 +22,7 @@ import com.example.intermediatesubmition.ui.component.EditText.MyEditTextEmail
 import com.example.intermediatesubmition.ui.component.EditText.MyEditTextPassword
 import com.example.intermediatesubmition.ui.component.InputLayout.MyPasswordInputLayout
 import com.example.intermediatesubmition.ui.component.InputLayout.MyTextInputLayout
-import com.example.intermediatesubmition.helper.UserModelFactory
+import com.example.intermediatesubmition.ui.factory.UserModelFactory
 import com.example.intermediatesubmition.ui.pages.main.MainActivity
 import com.example.intermediatesubmition.ui.pages.register.RegisterActivity
 import retrofit2.Call

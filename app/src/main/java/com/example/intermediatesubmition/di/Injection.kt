@@ -1,16 +1,18 @@
 package com.example.intermediatesubmition.di
 
 import android.content.Context
-import com.example.intermediatesubmition.data.database.UserPreferences
-import com.example.intermediatesubmition.data.database.dataStore
+import com.example.intermediatesubmition.data.local.room.StoriesDatabase
 import com.example.intermediatesubmition.data.remote.retrofit.ApiConfig
-import com.example.intermediatesubmition.data.repository.StoryLocationRepository
-import com.example.intermediatesubmition.ui.viewmodel.UserViewModel
+import com.example.intermediatesubmition.data.repository.StoryRepository
 import com.example.intermediatesubmition.utils.Executor
 
 object Injection {
-    fun locationProvideRepository(token: String): StoryLocationRepository{
+    fun storyProvideRepository(context: Context): StoryRepository{
         val apiService = ApiConfig.getApiService()
-        return StoryLocationRepository.getInstance(apiService, token)
+        val database = StoriesDatabase.getInstance(context)
+        val dao = database.storiesDao()
+        val appExecutor = Executor()
+
+        return StoryRepository.getInstance(apiService, dao, appExecutor)
     }
 }
